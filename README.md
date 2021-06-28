@@ -18,7 +18,7 @@ All of the space engineers dedicated server on wine containers I found wouldn't 
 ### -RECOMENDED- Pull from dockerhub and run with docker-compose
 
 * Clone this repo with ```git clone https://github.com/androidkev/98gamingserver_SpaceEngineers.git```.
-* Change directory into the cloned repo with ```cd space-engineers-dedicated-docker-linux```.
+* Change directory into the cloned repo with ```cd 98gamingserver_SpaceEngineers```.
 * Run the start script with ```./start```. This will initialize the ./appdata folder, unzip an empty star system from star-system.zip and start the server.
 
 ### Pull and run from dockerhub without docker-compose:
