@@ -13,7 +13,7 @@ if [ ! -f "/appdata/space-engineers/World/Sandbox.sbc" ]; then
 fi
 
 # #check if /appdata/space-engineers/config/SpaceEngineers-Dedicated.cfg is a file
-if [ ! -f "/appdata/space-engineers/config/SpaceEngineersDedicated/SpaceEngineers-Dedicated.cfg" ]; then
+if [ ! -f "/appdata/space-engineers/SpaceEngineersDedicated/SpaceEngineers-Dedicated.cfg" ]; then
   echo "SpaceEngineers-Dedicated.cfg file does not exist, exiting."
   exit 131
 fi
