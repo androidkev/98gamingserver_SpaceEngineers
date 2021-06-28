@@ -102,7 +102,7 @@
     <AssemblerEfficiencyMultiplier>3</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>3</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>4</MaxPlayers>
+    <MaxPlayers>10</MaxPlayers>
     <MaxFloatingObjects>100</MaxFloatingObjects>
     <MaxBackupSaves>5</MaxBackupSaves>
     <MaxGridSize>0</MaxGridSize>
@@ -192,7 +192,7 @@
     <VoxelAgeThreshold>24</VoxelAgeThreshold>
     <EnableResearch>true</EnableResearch>
     <EnableGoodBotHints>true</EnableGoodBotHints>
-    <OptimalSpawnDistance>16000</OptimalSpawnDistance>
+    <OptimalSpawnDistance>1</OptimalSpawnDistance>
     <EnableAutorespawn>true</EnableAutorespawn>
     <EnableBountyContracts>true</EnableBountyContracts>
     <EnableSupergridding>false</EnableSupergridding>
