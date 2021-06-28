@@ -22,15 +22,6 @@ All of the space engineers dedicated server on wine containers I found wouldn't 
 ### Pull and run from dockerhub without docker-compose:
 From this directory run :
 
-``` 
-docker run --restart always -p "27016:27016/udp" \
-  -v $(pwd)/appdata/space-engineers/config/World:/appdata/space-engineers/World\
-  -v $(pwd)/appdata/space-engineers/bins/SpaceEngineersDedicated:/appdata/space-engineers/SpaceEngineersDedicated\
-  -v $(pwd)/appdata/space-engineers/bins/steamcmd:/home/se/.steam\
-  -v $(pwd)/appdata/space-engineers/config/SpaceEngineers-Dedicated.cfg:/appdata/space-engineers/SpaceEngineersDedicated/SpaceEngineers-Dedicated.cfg\
-  mmmaxwwwell/space-engineers-dedicated-docker-linux:wine6 
-```
-
 ## Exit Codes:
 | Exit Code | Reason |
 | - | - |
