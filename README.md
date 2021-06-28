@@ -1,6 +1,21 @@
-# [98gaming](https://github.com/androidkev/98gamingserver_SpaceEngineers)
+# [mmmaxwwwell/space-engineers-dedicated-docker-linux](https://github.com/mmmaxwwwell/space-engineers-dedicated-docker-linux)
 
 All of the space engineers dedicated server on wine containers I found wouldn't build, and I embarked on a journey to create my own.
+
+## Features:
+* Wine 6
+* Debian Buster
+* Installs default star system world on first run
+* Automatically updates ```<LoadWorld>``` element in ```SpaceEngineers-Dedicated.cfg```
+* Supports plugins.
+* Image built and [available on dockerhub](https://hub.docker.com/r/mmmaxwwwell/space-engineers-dedicated-docker-linux)
+* Easy to implement offsite backups, just copy everything in ```./appdata/space-engineers/config``` with your favorite backup tool.
+* Reduced container size (~4gb decompressed).
+
+Thank you to:
+* [7thCore](https://github.com/7thCore) for [7thCore/sesrv-script](https://github.com/7thCore/sesrv-script)
+* [Devidian](https://github.com/Devidian) for advancing the docker implementation to a working state!
+* @Tsu, @Aedis, @ebbit, @data, @ReAn, @BloodyIron, @Inflex, @spawnAjak
 
 ## Prerequisites:
 * docker
@@ -16,7 +31,7 @@ All of the space engineers dedicated server on wine containers I found wouldn't 
 
 ### -RECOMENDED- Pull from dockerhub and run with docker-compose
 
-* Clone this repo with ```git@github.com:androidkev/98gamingserver_SpaceEngineers.git```.
+* Clone this repo with ```git clone https://github.com/mmmaxwwwell/space-engineers-dedicated-docker-linux.git```.
 * Change directory into the cloned repo with ```cd space-engineers-dedicated-docker-linux```.
 * Run the start script with ```./start```. This will initialize the ./appdata folder, unzip an empty star system from star-system.zip and start the server.
 
@@ -24,7 +39,12 @@ All of the space engineers dedicated server on wine containers I found wouldn't 
 From this directory run :
 
 ``` 
-
+docker run --restart always -p "27016:27016/udp" \
+  -v $(pwd)/appdata/space-engineers/config/World:/appdata/space-engineers/World\
+  -v $(pwd)/appdata/space-engineers/bins/SpaceEngineersDedicated:/appdata/space-engineers/SpaceEngineersDedicated\
+  -v $(pwd)/appdata/space-engineers/bins/steamcmd:/home/se/.steam\
+  -v $(pwd)/appdata/space-engineers/config/SpaceEngineers-Dedicated.cfg:/appdata/space-engineers/SpaceEngineersDedicated/SpaceEngineers-Dedicated.cfg\
+  mmmaxwwwell/space-engineers-dedicated-docker-linux:latest 
 ```
 
 ## Exit Codes:
