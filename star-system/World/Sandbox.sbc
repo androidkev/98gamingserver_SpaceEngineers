@@ -159,8 +159,8 @@
     <EnableVoxelDestruction>true</EnableVoxelDestruction>
     <MaxDrones>5</MaxDrones>
     <EnableDrones>true</EnableDrones>
-    <EnableWolfs>false</EnableWolfs>
-    <EnableSpiders>false</EnableSpiders>
+    <EnableWolfs>true</EnableWolfs>
+    <EnableSpiders>true</EnableSpiders>
     <FloraDensityMultiplier>1</FloraDensityMultiplier>
     <EnableStructuralSimulation>false</EnableStructuralSimulation>
     <MaxActiveFracturePieces>50</MaxActiveFracturePieces>
@@ -170,7 +170,7 @@
     <EnableScripterRole>false</EnableScripterRole>
     <MinDropContainerRespawnTime>5</MinDropContainerRespawnTime>
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
-    <EnableTurretsFriendlyFire>false</EnableTurretsFriendlyFire>
+    <EnableTurretsFriendlyFire>true</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
     <SyncDistance>3000</SyncDistance>
     <ExperimentalMode>false</ExperimentalMode>
@@ -232,7 +232,7 @@
         <AutoAcceptMember>true</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>Trader</FactionType>
         <Stations>
           <MyObjectBuilder_Station>
@@ -3590,7 +3590,7 @@
         <AutoAcceptMember>true</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>None</FactionType>
         <Stations />
         <CustomColor x="0" y="-0.8" z="-0.450000018" />
@@ -3615,7 +3615,7 @@
         <AutoAcceptMember>false</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>Miner</FactionType>
         <Stations>
           <MyObjectBuilder_Station>
@@ -4793,7 +4793,7 @@
         <AutoAcceptMember>false</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>Miner</FactionType>
         <Stations>
           <MyObjectBuilder_Station>
@@ -6262,7 +6262,7 @@
         <AutoAcceptMember>false</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>Miner</FactionType>
         <Stations>
           <MyObjectBuilder_Station>
@@ -7452,7 +7452,7 @@
         <AutoAcceptMember>false</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>Miner</FactionType>
         <Stations>
           <MyObjectBuilder_Station>
@@ -8630,7 +8630,7 @@
         <AutoAcceptMember>false</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>Miner</FactionType>
         <Stations>
           <MyObjectBuilder_Station>
@@ -9856,7 +9856,7 @@
         <AutoAcceptMember>false</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>Miner</FactionType>
         <Stations>
           <MyObjectBuilder_Station>
@@ -11313,7 +11313,7 @@
         <AutoAcceptMember>false</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>Trader</FactionType>
         <Stations>
           <MyObjectBuilder_Station>
@@ -14579,7 +14579,7 @@
         <AutoAcceptMember>false</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>Trader</FactionType>
         <Stations>
           <MyObjectBuilder_Station>
@@ -19468,7 +19468,7 @@
         <AutoAcceptMember>false</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>Trader</FactionType>
         <Stations>
           <MyObjectBuilder_Station>
@@ -22638,7 +22638,7 @@
         <AutoAcceptMember>false</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>Trader</FactionType>
         <Stations>
           <MyObjectBuilder_Station>
@@ -25517,7 +25517,7 @@
         <AutoAcceptMember>false</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>Builder</FactionType>
         <Stations>
           <MyObjectBuilder_Station>
@@ -28140,7 +28140,7 @@
         <AutoAcceptMember>false</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>Builder</FactionType>
         <Stations>
           <MyObjectBuilder_Station>
@@ -30737,7 +30737,7 @@
         <AutoAcceptMember>false</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>Builder</FactionType>
         <Stations>
           <MyObjectBuilder_Station>
@@ -33360,7 +33360,7 @@
         <AutoAcceptMember>false</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>Builder</FactionType>
         <Stations>
           <MyObjectBuilder_Station>
@@ -36757,7 +36757,7 @@
         <AutoAcceptMember>false</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
         <AcceptHumans>false</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
         <FactionType>Builder</FactionType>
         <Stations>
           <MyObjectBuilder_Station>
