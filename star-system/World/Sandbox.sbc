@@ -2,7 +2,7 @@
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
   <ElapsedGameTime>2535360000</ElapsedGameTime>
-  <SessionName>test</SessionName>
+  <SessionName>98GAMING</SessionName>
   <SpectatorPosition>
     <Position x="57074.621628522174" y="54631.552364062372" z="79598.951669948146" />
     <Forward x="-0.527208865" y="-0.5043053" z="-0.683905661" />
@@ -192,7 +192,7 @@
     <VoxelAgeThreshold>24</VoxelAgeThreshold>
     <EnableResearch>true</EnableResearch>
     <EnableGoodBotHints>true</EnableGoodBotHints>
-    <OptimalSpawnDistance>1</OptimalSpawnDistance>
+    <OptimalSpawnDistance>10</OptimalSpawnDistance>
     <EnableAutorespawn>true</EnableAutorespawn>
     <EnableBountyContracts>true</EnableBountyContracts>
     <EnableSupergridding>false</EnableSupergridding>
